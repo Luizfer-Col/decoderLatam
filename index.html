@@ -1,36 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Luizfer Encriptador</title>
-    <!-- Enlace a un archivo CSS externo -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main>
-      <section class="left">
-        <textarea placeholder="Ingresa el texto aquí" id="input-text" ></textarea>
 
-        <div class="left-footer">
-          <p>
-            <img src="images/Vector.svg" alt="Descripción de la imagen" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Luizfer Encryptor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="notification-banner" class="notification-banner">Texto copiado al portapapeles</div>
+  <main>
+    <section class="text-input">
+      <img src="images/logo.svg" alt="logo" class="logo" />
+      <textarea placeholder="Ingresa el texto aquí" id="input-text"></textarea>
+
+      <div class="text-input-footer">
+        <div id="warning-container" class="warning-container">
+          <p class="error-message">
+            <img src="images/vector.svg" alt="Descripción de la imagen" />
             Solo letras minúsculas y sin acentos
           </p>
-          <div class="buttons-container">
-            <button id="encrypt-button">Encriptar</button>
-            <button id="decrypt-button">Desencriptar</button>
-          </div>
         </div>
-      </section>
-      <section class="right">
-        Sección Derecha
 
-        <p id="result-text"></p>
-        <button id="clickMe">Haz clic aquí</button>
-      </section>
-    </main>
-    <script src="script.js"></script>
-  </body>
+        <div class="buttons-container">
+          <button id="encrypt-button">Encriptar</button>
+          <button id="decrypt-button" class="outline-button">Desencriptar</button>
+        </div>
+      </div>
+    </section>
+    <section class="result-output">
+      <div id="result-container" class="result-container">
+        <span class="result-title"><strong>Resultado:</strong><br />
+          <p id="result-text" class="result-text"></p>
+        </span>
+
+
+        <div class="actions-container">
+          <button id="copy-button">Copiar</button>
+          <button id="clean-button" class="outline-button">Limpiar</button>
+        </div>
+      </div>
+      <div id="no-result-container" class="no-result-container">
+        <img src="images/notFound.png" alt="not-found" />
+
+        <h3>Ningún mensaje fue encontrado</h3>
+        <span>Ingresa el texto que desees encriptar o desencriptar.</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Desarrollado con ❤️ por Luizfer-Col
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
