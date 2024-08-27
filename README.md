@@ -53,8 +53,10 @@ Luizfer Encryptor es una aplicación web que permite encriptar y desencriptar te
 ## Capturas de Pantalla
 
 - **Vista de Escritorio**
+  
 ![Desktop View](/images/desktop.png)
 
 - **Vista Móvil**
+  
 ![Mobile View](/images/mobile.png)
 
