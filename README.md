@@ -1,6 +1,6 @@
-# Luizfer Encryptor
+# DecoderLatam Encryptor
 
-Luizfer Encryptor es una aplicación web que permite encriptar y desencriptar textos de manera sencilla. Está diseñada con un enfoque en la simplicidad de uso y una interfaz amigable, ideal para usuarios que necesitan proteger la información en sus mensajes.
+DecoderLatam Encryptor es una aplicación web que permite encriptar y desencriptar textos de manera sencilla. Está diseñada con un enfoque en la simplicidad de uso y una interfaz amigable, ideal para usuarios que necesitan proteger la información en sus mensajes.
 
 ## Características
 
